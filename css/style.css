@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+@font-face {
+  font-family: Helvetica-light;
+  src: url(../fonts/helvetica/helvetica-light-587ebe5a59211.ttf);
+}
+@font-face {
+  font-family: Helvetica-bold;
+  src: url(../../fonts/helvetica/Helvetica-Bold.ttf);
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+.myheader {
+  height: 969px;
+  position: relative;
+  background-image: url("../../assets/images/Rectangle 25.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 3;
+}
+.myheader:after {
+  position: absolute;
+  background: linear-gradient(222deg, #890405 17.35%, #B01415 76.36%);
+  backdrop-filter: blur(8px);
+  width: 20px;
+  height: 100%;
+  content: "";
+  left: 0;
+  top: 0;
+}
+.myheader:before {
+  position: absolute;
+  background: rgba(129, 129, 129, 0.2);
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.myheader .header-top {
+  padding-top: 20px;
+}
+.myheader .header-top .mycontainer {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+.myheader .header-top .mycontainer .navbar-brand img {
+  width: 100%;
+}
+.myheader .header-top .mycontainer .navbar-nav .nav-item {
+  padding: 0 7px;
+}
+.myheader .header-top .mycontainer .navbar-nav .nav-item a {
+  color: #403D50;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.myheader .header-top .mycontainer .navbar-text {
+  margin-left: 20px;
+}
+.myheader .header-top .mycontainer .navbar-text a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #D03A3B;
+  border: 2px solid #D03A3B;
+  border-radius: 8px;
+  padding: 10px 24px;
+  transition: 0.5s ease;
+}
+.myheader .header-top .mycontainer .navbar-text a:hover {
+  background-color: #D03A3B;
+  color: #ffffff;
+}
+.myheader .middle-part {
+  padding-left: 45px;
+}
+.myheader .middle-part .image-wrapper {
+  position: relative;
+}
+.myheader .middle-part .image-wrapper .left {
+  padding-top: 135px;
+}
+.myheader .middle-part .image-wrapper .left h5 {
+  color: #D03A3B;
+  font-size: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.myheader .middle-part .image-wrapper .left h1 {
+  font-weight: 900;
+  font-size: 63px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #2A263C;
+  line-height: 63px;
+}
+.myheader .middle-part .image-wrapper .left h1 span {
+  font-weight: 400;
+  font-size: 43px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #A6A6A6;
+}
+.myheader .middle-part .image-wrapper .left p {
+  margin-top: 40px;
+  color: #6D6B7C;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.myheader .middle-part .image-wrapper .left .mybutton {
+  margin-top: 70px;
+}
+.myheader .middle-part .image-wrapper .left .mybutton a {
+  padding: 14px 46px;
+  background: linear-gradient(96.04deg, #A80304 -5.7%, #CF393A 100.84%);
+  box-shadow: 0px 21px 21px -9px rgba(168, 3, 4, 0.31);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.myheader .middle-part .image-wrapper .right img {
+  position: absolute;
+  content: "";
+  right: 22px;
+  top: 22px;
+  z-index: 3;
+}
+.myheader .bottom-left {
+  margin-top: 130px;
+  background: rgba(255, 255, 255, 0.4);
+  width: 835px;
+  height: 135px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 50px;
+}
+.myheader .bottom-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.myheader .bottom-left ul li {
+  display: inline-block;
+  margin-right: 80px;
+}
+.myheader .bottom-left ul li:last-child {
+  margin-right: 20px;
+}
+.myheader .bottom-left ul li span {
+  color: #2A263C;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.myheader .bottom-left ul li .bottom-text {
+  color: rgba(64, 61, 80, 0.6);
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-left: 40px;
+}
+.myheader .bottom-left ul li img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 12px;
+  margin-right: 10px;
+}
+.myheader .bottom-right {
+  background: linear-gradient(94.43deg, rgba(0, 0, 0, 0.58) -57.69%, rgba(0, 0, 0, 0) 53.66%);
+  backdrop-filter: blur(12px);
+  width: 800px;
+  height: 117px;
+  position: absolute;
+  content: "";
+  right: -310px;
+  bottom: 155px;
+  z-index: 3;
+  padding-left: 40px;
+}
+.myheader .bottom-right ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.myheader .bottom-right ul li .top {
+  padding-top: 22px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-bottom: 5px;
+}
+.myheader .bottom-right ul li .bottom {
+  color: rgba(255, 255, 255, 0.6);
+}
+.myheader .image-background {
+  position: absolute;
+  width: 715px;
+  height: 753px;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(222deg, #890405 17.35%, #B01415 76.36%);
+  backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.mycontainer {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
